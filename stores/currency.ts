@@ -4,8 +4,8 @@ import type { Currency } from 'types/shared/currency';
 
 export const initialCurrencies: Currency[] = [
   {
-    code: 'USD',
-    symbol: '$',
+    code: 'GBP',
+    symbol: '£',
   },
 ];
 
