@@ -16,7 +16,7 @@ const useCurrency = create(
     setCurrency: (currency: Currency) => set(() => ({ currency })),
     setCurrencies: (currencies: Currency[]) => set(() => ({ currencies })),
     formatPrice: new Intl.NumberFormat(undefined, {
-      currency: 'USD',
+      currency: 'GBP',
       style: 'currency',
     }).format,
   })),
